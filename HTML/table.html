@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLE</title>
+</head>
+<body>
+
+    <!-- cellspacing : space between the cells / space around the border of the cell
+    cellpadding : space around the content / space between the content and border of the cell -->
+    <table border="1" cellspacing="10px" cellpadding="20px" height="500px" width="700px">
+        <thead>
+            <tr>
+                <th>SL.NO.</th>
+                <th>MENU ITEM</th>
+                <th>PRICE</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>MASALA DOSA</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CHOLE BATURE</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>BIRIYAANI</td>
+                <td rowspan="2">200</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>FRIED RICE</td>
+                <!-- <td>200</td> -->
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>CHILLI BEEF</td>
+                <td>150</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">TOTAL : </td>
+                <!-- <td></td> -->
+                <td>800</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html> 

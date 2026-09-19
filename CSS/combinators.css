@@ -1,0 +1,8 @@
+#ima img{
+    height: 450px;
+    width: 400px;
+
+}
+#ima>img{
+    border: 10px solid black;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#block{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+#block .logo h2{
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgb(181, 127, 19);
+    color: orangered;
+    font-weight: 200;
+}
+#block .about {
+    height: inherit;
+    width: 60%;
+    
+}
+#block .about ul{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#block .about ul a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+#block .about ul a:hover{
+    color: orangered;
+}
+#block .but button{
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 7px 15px;
+}
+#block .but button:hover{
+    color: orangered;
+    background: transparent;
+    border: 1px solid orangered;
+}

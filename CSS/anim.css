@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: dj 10s linear infinite ;
+
+    
+}
+section{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    animation-name: demo;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+section i{
+    font-size: 50px;
+    
+    color: white;
+   
+}
+
+@keyframes demo {
+    from{
+        background-color: red;
+
+    }
+    to{
+        background-color: yellow;
+
+    }
+    
+}
+
+@keyframes dj {
+    0%{
+        background-color: aqua;
+    }
+    20%{
+        background-color: chocolate;
+
+    }
+    30%{
+        background-color: yellow;
+    }
+    40%{
+        background-color: pink;
+    }
+    100%{
+        background-color: green;
+    }
+}

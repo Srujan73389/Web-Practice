@@ -1,0 +1,28 @@
+img{
+    height: 200px;
+    /* float: right; */
+
+}
+p{
+    float: right;
+    opacity: 0.9;
+    background-color: aqua;
+}
+.box{
+    border: 2px solid red;
+    height: 270px;
+    width: 200px;
+    display:inline-block
+}
+.box1{
+    overflow: visible;
+}
+.box2{
+    overflow: hidden;
+}
+.box3{
+    overflow: scroll;
+}
+.box4{
+    overflow: auto;
+}

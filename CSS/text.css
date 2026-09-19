@@ -1,0 +1,19 @@
+#text{
+    color: rgba(154, 77, 104,1);
+    text-align:start ;
+    text-transform: capitalize;
+    text-shadow: 2px 3px 1x;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-decoration-line:underline;
+    text-decoration-style: double;
+    text-decoration-color: aqua;
+}
+p{
+    color: cornflowerblue;
+    line-height: 50px;
+    text-indent: 40px;
+    word-spacing: 5px;
+    text-align: justify;
+    /* text-align: justify; */
+}

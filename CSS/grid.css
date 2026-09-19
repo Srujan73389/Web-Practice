@@ -1,0 +1,16 @@
+#grid{
+    background-color: aquamarine;
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px; */
+grid-template-rows: repeat(3,400px);
+grid-template-columns: repeat(3,auto);
+height: 800px;
+
+width: 100%;
+    gap: 5px;
+}
+#grid .grid-item{
+    color: white;
+    background-color: blueviolet;
+
+}

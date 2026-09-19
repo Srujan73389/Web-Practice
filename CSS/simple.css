@@ -1,0 +1,13 @@
+/* ID SELECTOR*/
+#text{
+    color: pink;
+    background-color: black;
+}
+.text{
+    color:black;
+    background-color: aqua;
+}
+button{
+    color: black;
+    background-color: aqua;
+}

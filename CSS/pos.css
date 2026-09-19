@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+.blk1{
+    background-color: red;
+    position: static;
+    left: 200px;
+}
+.blk2{
+    background-color: aqua;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    z-index: 1;
+}
+.blk3{
+    background-color: chocolate;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: -1;
+}
+.blk4{
+    background-color: cornflowerblue;
+    position:sticky ;
+    right: 200px;
+    top: 300px;
+    z-index: -1;
+}
+.blk5{
+    background-color: darkgreen;
+    position: sticky;
+    top: 10px;
+    /* left: 300px; */
+}
